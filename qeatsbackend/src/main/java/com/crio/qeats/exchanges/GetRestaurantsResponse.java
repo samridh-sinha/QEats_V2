@@ -57,3 +57,9 @@ public class GetRestaurantsResponse {
 
 
 
+// @Data
+// @AllArgsConstructor
+// public class GetRestaurantsResponse {
+
+// }
+

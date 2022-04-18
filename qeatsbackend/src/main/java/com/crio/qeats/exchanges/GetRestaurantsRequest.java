@@ -33,8 +33,14 @@ public class GetRestaurantsRequest {
   @NonNull
   @Min(value = -180)
   @Max(value = 180)
-  private Double longitude; 
-
-
+  private Double longitude;  
 }
+
+// @Data
+// @NoArgsConstructor
+// public class GetRestaurantsRequest {
+
+
+
+// }
 

@@ -12,13 +12,17 @@ import javax.validation.constraints.NotNull;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 // Java class that maps to Mongo collection.
 @Data
 @Document(collection = "restaurants")
 @NoArgsConstructor
+
 public class RestaurantEntity {
+
+
 
   @Id
   private String id;

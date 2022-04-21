@@ -36,11 +36,5 @@ public class GetRestaurantsRequest {
   private Double longitude;  
 }
 
-// @Data
-// @NoArgsConstructor
-// public class GetRestaurantsRequest {
 
-
-
-// }
 

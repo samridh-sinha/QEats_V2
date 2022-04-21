@@ -30,7 +30,6 @@ import org.mockito.junit.jupiter.MockitoExtension;
 @ExtendWith(MockitoExtension.class)
 public class RestaurantServiceMockitoTestStub {
 
- 
   protected static final String FIXTURES = "fixtures/exchanges";
 
   protected ObjectMapper objectMapper = new ObjectMapper();
